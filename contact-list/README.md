@@ -4,7 +4,7 @@ Este é um projeto acadêmico com intuito de criar uma aplicação de contatos c
 
 # Instalando dependências
 
-Rode o seguinte comando:
+Rode o seguinte comando no diretório:
 
 ```bash
 $ npm install
