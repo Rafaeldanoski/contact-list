@@ -10,16 +10,56 @@ type initialStateType = {
 const contactList: Contact[] = [
   {
     id: uuidv4(),
-    name: "Rafael",
-    email: "rafael@gmail.com",
+    name: "Chrystopher",
+    email: "chrystopher@gmail.com",
     telephone: "123456789",
-    nascimento: "30/06/1996",
+    nascimento: "01/01/1900",
+    empresa: "lasalle"
+  },
+  {
+    id: uuidv4(),
+    name: "Leonardo",
+    email: "leonardo@gmail.com",
+    telephone: "123456789",
+    nascimento: "01/01/1900",
+    empresa: "lasalle"
+  },
+  {
+    id: uuidv4(),
+    name: "Luis",
+    email: "luis@gmail.com",
+    telephone: "123456789",
+    nascimento: "01/01/1900",
+    empresa: "lasalle"
+  },
+  {
+    id: uuidv4(),
+    name: "Maurício",
+    email: "mau@hotmail.com",
+    telephone: "123456789",
+    nascimento: "01/01/1900",
+    empresa: "lasalle"
+  },
+  {
+    id: uuidv4(),
+    name: "Pedro",
+    email: "pedro@gmail.com",
+    telephone: "123456789",
+    nascimento: "01/01/1900",
     empresa: "lasalle"
   },
   {
     id: uuidv4(),
     name: "Rafa",
     email: "rafa@gmail.com",
+    telephone: "123456789",
+    nascimento: "30/06/1996",
+    empresa: "lasalle"
+  },
+  {
+    id: uuidv4(),
+    name: "Rafael",
+    email: "rafael@gmail.com",
     telephone: "123456789",
     nascimento: "30/06/1996",
     empresa: "lasalle"
@@ -42,52 +82,12 @@ const contactList: Contact[] = [
   },
   {
     id: uuidv4(),
-    name: "Maurício",
-    email: "mau@hotmail.com",
-    telephone: "123456789",
-    nascimento: "01/01/1900",
-    empresa: "lasalle"
-  },
-  {
-    id: uuidv4(),
     name: "Vanessa",
     email: "vanessa@gmail.com",
     telephone: "123456789",
     nascimento: "01/01/1900",
     empresa: "lasalle"
-  },
-  {
-    id: uuidv4(),
-    name: "Chrystopher",
-    email: "chrystopher@gmail.com",
-    telephone: "123456789",
-    nascimento: "01/01/1900",
-    empresa: "lasalle"
-  },
-  {
-    id: uuidv4(),
-    name: "Luis",
-    email: "luis@gmail.com",
-    telephone: "123456789",
-    nascimento: "01/01/1900",
-    empresa: "lasalle"
-  },
-  {
-    id: uuidv4(),
-    name: "Leonardo",
-    email: "leonardo@gmail.com",
-    telephone: "123456789",
-    nascimento: "01/01/1900",
-    empresa: "lasalle"
-  },
-  {
-    id: uuidv4(),
-    name: "Pedro",
-    email: "pedro@gmail.com",
-    telephone: "123456789",
-    nascimento: "01/01/1900",
-    empresa: "lasalle"
-  },
+  } 
 ];
 
 const initialState: initialStateType = {
